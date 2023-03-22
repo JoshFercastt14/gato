@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="simple-linear">
+    <center><h2><u>AppDeGatos</u></h2></center>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <p>Haz click aquí para ver más <a href="https://unsplash.com/es/images/animals/kitten" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+
+     <center><img src="imagenes/gatito.jpg" class='imgRedonda' alt="Un lindo gato naranja recostado sobre su espalda."></center>
+
+      <hr>
+
+      <h3>Listas de Gatos</h3>
+
+      <div>
+        <h4>Cosas que los gatos <em>aman</em>:</h4>
+        <ul class="lista-de-gatos">
+          <li>Menta gatuna</li>
+          <li>Apuntadores Láser</li>
+          <li><s>Lasaña</s></li>
+          <li><em><b>Dormir</b></em></li>
+          <li>Arañar</li>
+          <li>Cazar insectos</li>
+        </ul>
+        <center><h3>La lasaña es la comida favorita de el famoso gato de las caricaturas GARFIELD</h3>
+        <img src="imagenes/lasaña.png" width="300" height="200" alt="Lasaña"></center>
+        <hr>
+
+        <h4>Cosas que los gatos <em>odian</em>:</h4>
+        <ol class="lista-de-gatos">
+          <li>Tratamientos antipulgas</li>
+          <li><em><b>Truenos</b></em></li>
+          <li>Otros gatos</li>
+          <li>Ruidos fuertes</li>
+          <li>Agua (bañarse)</li>
+          <li>Cargarlos en brazos</li>
+        </ol>
+      </div>
+      <img  src="imagenes/gatitos.jpg" width="500" height="400" alt="Gatos">
+      <hr>
+      <form action="/enviar-respuesta">
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior">Interior
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label>
+        <br>
+
+        <h3>Ingrese su nombre</h3>
+        <input type="text" placeholder="Ingrese su nombre"></label>
+        <h3>Ingrese su apellido</h3>
+        <input type="text" placeholder="Ingrese su apellido"></label>
+        <h3>Ingrese el nombre de su gato</h3>
+        <input type="text" placeholder="Ingrese el nombre de su gato" required><br>
+        <form action="/uno/juan.txt">
+          <h3>¿Cómo suele ser su gato?</h3>
+          <input type="checkbox">Amoroso
+          <input type="checkbox">Peresoso
+          <input type="checkbox">Enérgico
+        <br>
+        <input type="text" placeholder="URL de la foto de su gato" required>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </main>
+    <br>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
